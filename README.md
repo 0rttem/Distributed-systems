@@ -1,7 +1,7 @@
 # Distributed-systems (Replicated log)
 The laboratory works of distributed systems in Kyiv Polytechnic Institute
 
-Usage:
+Selfcheck acceptance test
 1. initialize Master:
 ```
 docker run -it --rm --network=dist_systems_lab_network -v$(pwd):/home -w/home --name Master python:3 bash
