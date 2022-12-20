@@ -14,6 +14,10 @@ docker run -it --rm --network=dist_systems_lab_network -v$(pwd):/home -w/home --
 ```
 docker run -it --rm --network=dist_systems_lab_network -v$(pwd):/home -w/home --name Secondary2 python:3 bash
 ```
+4. In Master, Secondary1, Secondary2 instlall:
+```
+pip3 install sortedcontainers
+```
 
 
 
